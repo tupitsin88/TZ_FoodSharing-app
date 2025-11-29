@@ -1,8 +1,8 @@
 #let cfg(data) = (
     project: (
-        code: [RU.17701729.05.#data.code ТЗ 01-1],
+        code: [RU.17701729.09.#data.code ТЗ 01-1],
         name: [
-          #text(upper(data.project_name)).
+          #text(upper(data.project_name))
         ],
     ),
 

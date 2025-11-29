@@ -2,13 +2,13 @@
   // Project code
   // Example: "01-01"
   // You can find it here: https://ru-ikt.ru/reestrpo
-  code: "01-01",
+  code: "12-01",
 
   // Project name
   // Example: "Учимся закупать ТОН"
-  project_name: "Учимся закупать ТОН",
+  project_name: "Приложение для фуд-шеринга",
   // Example: "Learning how to purchase TON"
-  project_name_english: "Learning how to purchase TON",
+  project_name_english: "Food-sharing app",
 
   // Students
   // Example: 
@@ -16,15 +16,16 @@
   //  (name: "Л. И. Лившиц", group: "БПИ235"),
   // You can write 1 or more students
   students: (
-    (name: "А. В. Васюков", group: "БПИ235"),
-    (name: "Д. Дж. Трамп", group: "\"Республиканская партия\""),
+    (name: "Т. Р. Тупицин", group: "БПИ243"),
+    (name: "Д. С. Матусевич", group: "БПИ243"),
+    (name: "А. В. Михайлов", group: "БПИ243"),
   ),
 
   // Agreed
   // Example: "П. В. Дуров"
-  agreed_by_name: "П. В. Дуров",
+  agreed_by_name: "Р. А. Нестеров",
   // Example: "Основатель социальной сети \"ВКонтакте\" и мессенджера Telegram"
-  agreed_by_position: "Основатель социальной сети \"ВКонтакте\" и мессенджера Telegram",
+  agreed_by_position: "Научный руководитель, доцент департамента программной инженерии, заведующий научно-учебной лабораторией процессно-ориентированных информационных систем (ПОИС), PhD",
 
   // Approved
   approved_by_name: "Н. А. Павлочев",
