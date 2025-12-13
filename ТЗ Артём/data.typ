@@ -6,7 +6,7 @@
 
   // Project name
   // Example: "Учимся закупать ТОН"
-  project_name: "Приложение для фуд-шеринга",
+  project_name: "Приложение для фуд-шеринга. Серверная часть 2",
   // Example: "Learning how to purchase TON"
   project_name_english: "Food-sharing app",
 
