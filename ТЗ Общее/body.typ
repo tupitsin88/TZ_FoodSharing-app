@@ -460,7 +460,6 @@ API для уведомлений:
         [Базовая аутентификация (вход/регистрация)], plus, plus, plus, plus, plus, plus, plus,
         [Геолокация и карта магазинов/ресторанов], plus, plus, plus, plus, minus, plus, plus,
         [Фильтры поиска (цена, категория, расстояние)], plus, plus, plus, plus, plus, plus, plus,
-        [Сюрприз-боксы (Mystery bags)], plus, plus, minus, plus, minus, minus, plus,
     )
 )
 
@@ -473,7 +472,7 @@ API для уведомлений:
             [Функция],
             ..column_names.map(col => rotate(0deg, reflow: true, col))
         ),
-
+        [Сюрприз-боксы (Mystery bags)], plus, plus, minus, plus, minus, minus, plus,
         [Бронирование еды с временным слотом], plus, plus, plus, plus, plus, plus, plus,
         [Система оплаты в приложении], plus, plus, minus, plus, plus, plus, plus,
         [Избранные / Favourite рестораны], plus, minus, minus, minus, minus, plus, plus,
@@ -483,10 +482,6 @@ API для уведомлений:
         [CRM для партнёров (аналитика)], plus, minus, minus, plus, plus, plus, plus,
         [Real-time обновление инвентаря], plus, minus, minus, plus, plus, minus, minus,
         [Поддержка P2P обмена (между пользователями)], minus, minus, plus, minus, minus, minus, minus,
-        [Интеграция платежей (локальные системы)], plus, plus, minus, plus, plus, plus, minus,
-        [Поддержка нескольких языков], plus, minus, plus, plus, minus, minus, minus,
-        [Работает в России / СНГ],plus, plus, plus, minus, minus, minus, plus,
-        [Поддержка нескольких языков], plus, minus, plus, plus, minus, minus, minus,
     )
 )
 
@@ -499,8 +494,9 @@ API для уведомлений:
             [Функция],
             ..column_names.map(col => rotate(0deg, reflow: true, col))
         ),
-
-        [Работает в России / СНГ],plus, plus, plus, minus, minus, minus, plus, 
+        [Интеграция платежей (локальные системы)], plus, plus, minus, plus, plus, plus, minus,
+        [Поддержка нескольких языков], plus, minus, plus, plus, minus, minus, minus,
+        [Работает в России / СНГ],minus, plus, minus, minus, minus, minus, plus, 
         [*Итого*], [*16*], [*12*], [*10*], [*14*], [*11*], [*12*], [*12*]
     )
 )
@@ -772,5 +768,18 @@ API для уведомлений:
     [Yindii], [https://www.yindii.co/],
     [Flashfood], [https://flashfood.com/],
     [Foodprint NZ], [https://www.foodprint.org.nz/],
+  )
+)
+
+= ПРИЛОЖЕНИЕ 2. ТЕРМИНОЛОГИЯ
+
+#figure(
+  table(
+    columns: (55mm, auto),
+    rows: (10mm, auto),
+    align: center + horizon,
+    table.header([*Термин*], [*Объяснение*]),
+
+    [Сюрприз-бокс = сюрприз-пакет = предложение = бокс], [Это сформированный партнером набор непроданных продуктов питания или готовых блюд, реализуемый со скидкой. Состав набора не фиксирован заранее и зависит от фактических остатков продукции на момент формирования, что является условием предоставления специальной цены.],
   )
 )
